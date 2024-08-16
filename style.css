@@ -237,7 +237,6 @@ header{
 
 /* Run Section */
 
-
 .run{
     position: static;
     display: flex;
@@ -257,7 +256,10 @@ header{
  .run-img{ 
     width: 40%;
     border-radius: 5%;
+    object-fit: none;
+    object-position: 60% 30%;
 }
+
 
 .practice-title{
     font-size: 3.5rem;
@@ -303,7 +305,6 @@ header{
 
 .bmi-chart, .bmi-calculator{
     padding: 20px;
-    /* min-width: 300px;  */
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -392,7 +393,6 @@ header{
  .team-container{ 
     margin-top: 50px;
     padding: 20px;
-    /* margin: 0 auto; */
     display: grid;
     grid-template-areas: 
     "a b c"
